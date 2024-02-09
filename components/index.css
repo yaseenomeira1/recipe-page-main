@@ -26,6 +26,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 200px;
 }
 .recipe-photo{
     display: flex;
@@ -34,9 +35,11 @@ body{
     align-items: center;
 }
 .card{
+
+    
     background: var(--white--);
     width: 575px;
-    height: 850px;
+    height: 1150px;
     border-radius: 10px;
     padding: 20px;
 }
@@ -57,6 +60,9 @@ img{
     text-align: left;
 }
 
+.subheading{
+    color: var(--nutmeg--);
+}
 
 p, li{
     font-family: 'Outfit', sans-serif;
@@ -78,7 +84,8 @@ h4{
 }
 
 li{
-    margin-left: 0;
+    margin-left: -20px;
+    padding: 5px;
 }
 .prep-info{
     color: var(--raspberry--);
@@ -86,9 +93,40 @@ li{
 
 .imp{
     font-weight: bold;
-    color: var(--darkcharcoal--);
+    color: var(--wedgebrown--);
 }
 
 .text{
     color: var(--wedgebrown--);
+}
+
+ol li::marker {
+    color: var(--nutmeg--);
+    font-weight: bold;
+}
+
+hr{
+    opacity: .4;
+}
+
+.nut{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.item{
+    width: 50%;
+}
+
+tr:nth-child(1){
+    border-bottom: .4px solid;
+}
+
+td{
+    padding: 10px;
 }
