@@ -63,6 +63,9 @@ img{
 
 .subheading{
     color: var(--nutmeg--);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
 }
 
 p, li{
@@ -126,6 +129,7 @@ table{
 
 tr{
     color: var(--wedgebrown--);
+    font-family: 'Outfit', sans-serif;
 }
 
 .num{
